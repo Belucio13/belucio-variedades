@@ -314,10 +314,12 @@ section.inicio > .center{
     position: relative;
     transition: all 1s;
     left: 0;
+    opacity: 0;
 }
 
 .contato .left:hover .seta i{
     left: 70%;
+    opacity: 1;
 }
 
 
@@ -339,6 +341,7 @@ section.inicio > .center{
 
 .contato .right .seta{
     width: 80%;
+    opacity: 0;
     text-align: right;
     transition: all 1s;
     position: relative;
@@ -349,6 +352,7 @@ section.inicio > .center{
 
 .contato .right:hover .seta{
     right: 50%;
+    opacity: 1;
 }
 
 
