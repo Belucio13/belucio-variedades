@@ -97,14 +97,14 @@ const createAutocomplete = (nome, valor, informacao) => {
     autocomplete.style.display = 'block'
     const div = document.createElement('div')
     div.classList.add('produto-autocomplete')
-    div.innerHTML = `
+    div.innerHTML += `
         <div class="nome-produto">
             <p>${nome}</p>
             <p>${valor}</p>
         </div>
         <div class="informacoes-produto">
             <p>${informacao}</p>
-        </div>
+        </div> 
     `
     autocomplete.appendChild(div)
 }
@@ -115,21 +115,23 @@ const reseteAutocomplete = () => {
 
 const callAutocomplete = (event) => {
     if(event.key.length <= 1){
-        reseteAutocomplete()
         palavra += event.key
+    }
+    if(event.key === 'Backspace'){
+        palavra = palavra.substr(0, palavra.length - 1)
+    }
+    if(palavra.length == 0){
+        reseteAutocomplete();
+    }else{
+        reseteAutocomplete()
         DB.forEach(produto => {
             if(produto.nome.slice(0, palavra.length) == palavra){
                 createAutocomplete(produto.nome, produto.valor, produto.informacao)
             }
         })
     }
-    if(event.key === 'Backspace'){
-        palavra = palavra.substr(0, palavra.length - 1)
-    }
+
     
-    if(palavra.length == 0){
-        //removeAutocomplete();
-    }
 }
 
 input.addEventListener('keyup', callAutocomplete)
