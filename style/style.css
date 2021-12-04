@@ -107,7 +107,7 @@ section.inicio{
 }
 
 section.inicio > .bg{
-    background-image: url('interior.jpg');
+    background-image: url('../image/interior.jpg');
     position: absolute;
     width: 100%;
     height: 100%;
@@ -231,20 +231,39 @@ section.inicio > .center{
     padding: 0 2%;
 }
 
-.todos-produtos{
+.image-generic{
+    width: 260px;
+}
+
+.image-generic img{
+    width: 100%;
+}
+
+.todos-produtos > .container{
+    margin: 0 auto;
+    max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .produto-single{
-    width: 240px;
+    width: 280px;
+    height: 340px;
     margin: 20px;
-    background-color: green;
     padding: 10px;
-    color: white;
     box-shadow: 2px 2px 11px -2px #000000;
     border-radius: 5px;
+    color: black !important;
+}
+
+.produto-single a{
+    height: 100%;
+}
+
+.informacoes-produto p {
+    font-size: 18px;
+    padding: 20px 0 0 0;
 }
 
 .nome-produto{

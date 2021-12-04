@@ -3,8 +3,6 @@ const input = document.querySelector('#pesquisar')
 
 let palavra = ''
 
-
-
 const DB = [
     {
         'nome':'celular',
@@ -92,6 +90,7 @@ const DB = [
         'informacao':'informacoes do produto'
     },
 ]; 
+
 
 const createAutocomplete = (nome, valor, informacao) => {
     autocomplete.style.display = 'block'
