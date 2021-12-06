@@ -1,0 +1,102 @@
+/*                */
+/*  Hamburguer    */
+/*                */
+
+.hamburguer{
+    font-size: 30px;
+    position: relative;
+    right: 0;
+    z-index: 999;
+    color: white;
+    transition: all 1.3s;
+}
+
+.line{
+    width: 28px;
+    height: 2px;
+    background-color: white;
+    border-bottom: 1px solid rgb(26, 26, 26);
+    margin: 6px 5px;
+    transition: all .5s;
+}
+
+.l0{
+    transform: rotate(45deg);
+    top: 4px;
+    position: relative;
+}
+
+.l1{
+    display: none;
+}
+
+.l2{
+    transform: rotate(-45deg);
+    top: -4px;
+    position: relative;
+}
+
+.close{
+    right: 92%;
+}
+
+
+/*                */
+/*      xis       */
+/*                */
+
+.xis{
+    position: absolute;
+    right: 90%;
+    top: 50%;
+    display: none;
+}
+
+.xis .one{
+    position: absolute;
+    width: 20px; 
+    height: 2px;
+    background-color:black;
+    transform: rotate(45deg);
+    z-index: 99px;
+}
+
+.xis .two{
+    position: absolute;
+    width: 20px; 
+    height: 2px;
+    background-color:black;
+    transform: rotate(-45deg);
+    z-index: 99px;
+}
+
+
+
+/*                */
+/*      lupa      */
+/*                */
+
+.lupa{
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+.ball-lupa{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.line-lupa{
+    width: 10px;
+    height: 2px;
+    background-color:white;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    transform: rotate(30deg);
+}

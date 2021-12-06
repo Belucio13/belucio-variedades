@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/icons.css"/>
 </head>
 <body> 
     <header> 
         <div class="center">
             <div class="logo">
-                <div class="alinhar-logo">
-                    <h1>BV</h1>
-                    <p>Belucio Variedades</p>
-                </div>
+                <img src="image/logo bv.png" alt="">
             </div><!--logo-->
             <div class="menu-desktop">
                 <nav>
@@ -31,20 +29,22 @@
             <div class="menu-mobile">
                 <div class="search-mobile">
                     <form autocomplete="off">
-                        <i class="fas fa-search"></i>
-                        <input type="text" name="pesquisar" id="pesquisar-mobile" ontouchstart="callAutocomplete()" disabled>
+                        <div class="lupa">
+                            <div class="ball-lupa"></div>
+                            <div class="line-lupa"></div>
+                        </div>
+
+                        <input type="text" name="pesquisar" id="pesquisar-mobile" disabled>
                         
                         <div class="xis">
-                            <i class="fas fa-times"></i>
+                            <div class="one"></div>
+                            <div class="two"></div>
                         </div>
                     </form> 
                 </div>
 
-                <div class="logo-mobile" style="color: white">
-                    <div class="alinhar-logo">
-                        <h1>BV</h1>
-                        <p>Belucio Variedades</p>
-                    </div>
+                <div class="logo-mobile">
+                    <img src="image/logo bv.png" alt="">
                 </div><!--logo-->
 
                 <div class="hamburguer">
