@@ -134,4 +134,4 @@ const callAutocomplete = (event) => {console.log('dsad')
 }
 
 input.addEventListener('keyup', callAutocomplete)
-document.querySelector('#pesquisar-mobile').addEventListener('keyup', callAutocomplete)
+document.querySelector('#pesquisar-mobile').addEventListener('touchstart', callAutocomplete)

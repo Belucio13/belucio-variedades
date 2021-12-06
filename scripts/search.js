@@ -2,7 +2,6 @@
 
 
 const hiddenSearch = () => {
-    console.log('dsa')
     document.querySelector('.logo-mobile').style.display = 'block'
     document.querySelector('.hamburguer').style.display = 'block'
     document.querySelector('#pesquisar-mobile').style.backgroundColor = 'rgba(0,0,0,0)'
