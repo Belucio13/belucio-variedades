@@ -10,8 +10,9 @@ const hiddenSearch = () => {
     document.querySelector('.search-mobile .xis').style.right = '93%'
     document.querySelector('.search-mobile .xis').style.display = 'none'
     document.querySelector('.search-mobile i').style.left = '23%'
-    document.querySelector('.search-mobile').style.width = '10%'
+    document.querySelector('.search-mobile').style.width = '8%'
     document.querySelector('.search-mobile input').style.width = '10%'
+    document.querySelector('#pesquisar-mobile').disabled = true
 }
 
 document.querySelector('.fa-search')
@@ -26,6 +27,8 @@ document.querySelector('.fa-search')
     document.querySelector('.search-mobile i').style.left = '2%'
     document.querySelector('.search-mobile').style.width = '100%'
     document.querySelector('.search-mobile input').style.width = '100%'
+    document.querySelector('#pesquisar-mobile').disabled = false
+    document.querySelector('#pesquisar-mobile').focus()
 })
 
 document.querySelector('.xis i').addEventListener('click', hiddenSearch)

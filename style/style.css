@@ -407,13 +407,13 @@ section.inicio > .center{
 .left .icon{
     font-size: 8rem;
     color: green;
-    width: 15%;
+    width: 20%;
 }
 
 .left .rede-nome{
     font-size: 3rem;
     color: green;
-    width: 25%;
+    width: 30%;
 }
 
 .left .seta{
@@ -444,7 +444,7 @@ section.inicio > .center{
 .right .icon{
     font-size: 8rem;
     color: blue;
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: flex-end;
 }
@@ -452,7 +452,7 @@ section.inicio > .center{
 .right .rede-nome{
     font-size: 3rem;
     color: blue;
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
 }
@@ -545,9 +545,6 @@ footer{
 }
 
 .xis{
-    position: absolute;
-    right: 93%;
-    top: 3px;
     font-size: 20px;
     display: none;
     transition: all 1s;
@@ -589,7 +586,29 @@ footer{
     .menu-desktop ul{
         justify-content: space-between;
     }
-}
+    .image-generic{
+        width: 240px;
+    }
+    
+    .image-generic img{
+        width: 100%;
+    }
+
+    .produto-single{
+        width: 260px;
+        height: 320px;
+        padding: 10px;
+        box-shadow: 2px 2px 11px -2px #000000;
+        border-radius: 5px;
+        color: black !important;
+        position: relative;
+        top: 0;
+        transition: all .3s;
+    }
+    .right .rede-nome{
+        padding-right: 20px;
+    }
+} 
 
 @media screen and (max-width: 604px){
     .menu-desktop{
@@ -608,22 +627,81 @@ footer{
         width: 100%;
     }
     #pesquisar-mobile{
-        width: 30px;
-        padding: 7px 30px;
+        padding: 7px 35px;
         border-radius: 15px;
         border: none;
         background-color: rgba(0, 0, 0, 0);
         transition: all 1s
     }
-    .search-mobile{width: 10%;}
+    .search-mobile{width: 8%;}
     .search-mobile i{
         position: absolute;
-        left: 23%;
-        top: 19%;
         color: white;
         width: 20px;
         font-size: 19px;
     }
+    .search-mobile form > i{
+        position: absolute;
+        left: 2% !important;
+    }
+    .contato .titulo h1 {
+        font-size: 1.4rem;
+    }
+
+    .left .icon {
+        font-size: 5rem;
+        width: 20%;
+    }
+
+    .left .rede-nome {
+        font-size: 2rem;
+        width: 35%
+    }
+
+    .right .rede-nome {
+        font-size: 2rem;
+        width: 35%
+    }
+    .right .icon {
+        font-size: 5rem;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .close{right: 85%}
+    .icon{width:40% !important}
+}
+
+@media screen and (max-width: 340px){
+    .image-generic{
+        width: 220px;
+    }
+    
+    .image-generic img{
+        width: 100%;
+    }
+
+    .produto-single{
+        width: 240px;
+        height: 320px;
+        padding: 10px;
+        box-shadow: 2px 2px 11px -2px #000000;
+        border-radius: 5px;
+        color: black !important;
+        position: relative;
+        top: 0;
+        transition: all .3s;
+    }
+    .header-produtos .item p{
+        font-size: 14px;
+    }
+
+    .informacoes-produto p {
+        font-size: 16px;
+    }
+    .icon{width: 35% !important}
+    .seta{display: none !important}
 }
 
 
