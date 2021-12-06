@@ -114,7 +114,7 @@ const reseteAutocomplete = () => {
     autocomplete.style.display = 'none'
 }
 
-const callAutocomplete = (event) => {
+const callAutocomplete = (event) => {console.log('dsad')
     if(event.key.length <= 1){
         palavra += event.key
     }
@@ -131,8 +131,7 @@ const callAutocomplete = (event) => {
             }
         })
     }
-
-    
 }
 
 input.addEventListener('keyup', callAutocomplete)
+document.querySelector('#pesquisar-mobile').addEventListener('keyup', callAutocomplete)
