@@ -21,7 +21,7 @@ icon: {
     symbol: 'B'
 }
 })
-.bindPopup(`<img src="image/frente-loja.jpg"> 
+.bindPopup(`<img src="image/frente-loja.png"> 
             <h3>Loja Belucio Variedades</h3>
             <p>Loja de variedades</p> 
             <p>Aberto das 8:00 às 20:00</p>
