@@ -94,6 +94,7 @@ const DB = [
 
 
 const createAutocomplete = (nome, valor,img) => {
+    document.querySelector('.autocomplete').style.display = 'flex'
     autocomplete.style.display = 'block'
     const div = document.createElement('div')
     div.classList.add('produto-autocomplete')
@@ -103,6 +104,9 @@ const createAutocomplete = (nome, valor,img) => {
             <div class="nome-produto">
                 <p class="nome">${nome}</p>
                 <p>R$ ${valor}</p>
+            </div>
+            <div class="container-fita">
+                <div class="fita"></div>
             </div>
         </a>
     `
@@ -114,7 +118,8 @@ const reseteAutocomplete = () => {
     autocomplete.style.display = 'none'
 }
 
-const callAutocomplete = (event) => {console.log('dsad')
+const callAutocomplete = (event) => {
+    console.log(event.key)
     if(event.key.length <= 1){
         palavra += event.key
     }
@@ -134,3 +139,4 @@ const callAutocomplete = (event) => {console.log('dsad')
 }
 
 input.addEventListener('keyup', callAutocomplete)
+document.querySelector('#pesquisar-mobile').addEventListener('keyup', callAutocomplete)

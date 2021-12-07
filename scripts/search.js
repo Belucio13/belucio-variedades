@@ -26,6 +26,8 @@ document.querySelector('.lupa')
         document.querySelector('.xis').style.display = 'block'
         document.querySelector('.xis').style.right = '30px'
         document.querySelector('#pesquisar-mobile').disabled = false
+        document.querySelector('#pesquisar-mobile').focus()
+
 })
 
 document.querySelector('.xis').addEventListener('click', hiddenSearch)
