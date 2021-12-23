@@ -310,11 +310,11 @@ section.inicio > .center{
     color: black !important;
     position: relative;
     top: 0;
-    transition: all .3s;
+    transition: all .2s;
 }
 
 .produto-single:hover{
-    top: -5px;
+    top: -3px;
 }
 
 .todos-produtos a{
@@ -486,6 +486,8 @@ footer{
 .container-autocomplete{
     width: 400px;
     background-color: white;
+    max-height: 500px;
+    overflow-x: hidden;
 }
 
 .produto-autocomplete{
@@ -512,12 +514,6 @@ footer{
     transform: skewX(316deg);
 }
 
-.fita{
-    width: 106px;
-    height: 20px;
-    background-color: rgb(30, 190, 30);
-    transform: rotate(88deg);
-}
 
 
 @media screen and (max-width: 1100px){
@@ -568,7 +564,6 @@ footer{
         color: black !important;
         position: relative;
         top: 0;
-        transition: all .3s;
     }
     .right .rede-nome{
         padding-right: 20px;
@@ -666,7 +661,6 @@ footer{
         color: black !important;
         position: relative;
         top: 0;
-        transition: all .3s;
     }
     .header-produtos .item p{
         font-size: 14px;

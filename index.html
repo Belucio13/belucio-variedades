@@ -66,20 +66,20 @@
             </div>
 
             <div class="barra-pesquisa">
-                <form autocomplete="off">
+                <form autocomplete="off" id="form">
                     <input type="text" name="pesquisar" id="pesquisar">
                     <i class="fas fa-search"></i>
                 </form>
             </div> <!-- barra-pesquisa -->
         </div>
         <div class="autocomplete">
-            <div class="container-autocomplete" style="display: none"></div>
+            <div class="container-autocomplete" id='autocomplete' style="display: none"></div>
         </div>
     </header>
     <section class="inicio" id="inicio">
         <div class="bg"></div>
         <div class="center">
-            <div class="big-logo">
+            <div class="big-logo"> 
                 <img src="image/logo-grande.png" alt="">
             </div>
             <div class="descricao">
@@ -307,7 +307,7 @@
 
 
     <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
-    <script src="scripts/map.js"></script>
+    <script src="./scripts/map.js"></script>
     <script src="scripts/produtos.js"></script>
     <script src="scripts/autocomplete.js"></script>
     <script src="scripts/menu.js"></script>
