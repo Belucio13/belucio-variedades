@@ -4,18 +4,117 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: white;
+}
+
 .footer-pages{
     position: fixed;
     bottom: 0;
 }
 
+header{
+    height: 55px;
+}
+ 
 .produtos-pages{
     background-color: white;
     width: 100vw;
-    height: 100vh;
-    padding: 70px 0;
+    padding: 70px 2%;
+    display: flex;
 }
 
 .center{
     justify-content: center !important;
+}
+
+.back i{
+    position: absolute;
+    top: 15px;
+    left: 2%;
+    font-size: 22px;
+    color: white;
+}
+
+.slide{
+    width: 250px;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.slide img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    user-select: none;
+}
+
+.produto-expecifico{
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 2px 2px;
+    margin: 0 10px;
+}
+
+.info,.preco{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.btn-carrinho{
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.btn-carrinho:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.left-slide{
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    font-size: 27px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: all .2s;
+    user-select: none;
+}
+.right-slide{
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 200px;
+    left: 230px;
+    border-radius: 5px 0 0 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    font-size: 27px;
+    cursor: pointer;
+    transition: all .2s;
+    user-select: none;
+}
+
+.left-slide:hover{
+    background-color:rgba(0, 0, 0, 0.774);
+}
+.right-slide:hover{
+    background-color:rgba(0, 0, 0, 0.774);
 }
