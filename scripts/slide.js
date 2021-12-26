@@ -21,8 +21,3 @@ left.forEach((item) => {
         container.insertBefore( container.children[1], container.children[3] )
     })
 })
-
-
-document.querySelector('.btn-carrinho').addEventListener('click', () => {
-    alert('Carrinho ainda não está funcionando. Compras somente na loja :(')
-})

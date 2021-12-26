@@ -4,24 +4,21 @@
     box-sizing: border-box;
 }
 
-body{
+body, html{
     background-color: white;
-}
-
-.footer-pages{
-    position: fixed;
-    bottom: 0;
+    overflow-x: hidden;
 }
 
 header{
     height: 55px;
 }
  
-.produtos-pages{
-    background-color: white;
+.container{
     width: 100vw;
     padding: 70px 2%;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .center{
@@ -38,23 +35,29 @@ header{
 
 .slide{
     width: 250px;
+    height: 300px;
     display: flex;
     overflow-x: hidden;
     position: relative;
     align-items: center;
+    overflow-y: hidden;
+    border-right: 1px solid #ccc;
+    background: linear-gradient(50deg, #eeeeee 50%, rgb(255, 255, 255) 50%);
 }
 
 .slide img{
     width: 100%;
-    border-radius: 10px 10px 0 0;
     user-select: none;
 }
 
 .produto-expecifico{
-    width: 250px;
+    width: 251px;
     border: 1px solid #ccc;
-    border-radius: 10px 10px 2px 2px;
-    margin: 0 10px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 .info,.preco{
@@ -90,7 +93,6 @@ header{
     background-color: rgba(0, 0, 0, 0.404);
     color: white;
     font-size: 27px;
-    border-radius: 0 5px 5px 0;
     cursor: pointer;
     transition: all .2s;
     user-select: none;
@@ -101,7 +103,6 @@ header{
     width: 20px;
     height: 200px;
     left: 230px;
-    border-radius: 5px 0 0 5px;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.404);

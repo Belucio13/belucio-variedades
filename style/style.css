@@ -287,6 +287,7 @@ section.inicio > .center{
 
 .image-generic{
     width: 260px;
+    border-bottom: 1px solid #ccc;
 }
 
 .image-generic img{
@@ -305,7 +306,7 @@ section.inicio > .center{
     width: 280px;
     height: 340px;
     padding: 10px;
-    box-shadow: 2px 2px 11px -2px #000000;
+    box-shadow: 5px 6px 19px -6px rgba(0,0,0,0.7);
     border-radius: 5px;
     color: black !important;
     position: relative;
@@ -314,7 +315,7 @@ section.inicio > .center{
 }
 
 .produto-single:hover{
-    top: -3px;
+    top: -2px;
 }
 
 .todos-produtos a{
