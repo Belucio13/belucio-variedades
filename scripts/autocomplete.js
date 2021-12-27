@@ -273,11 +273,6 @@ const DB = [
         'valor':'15,00',
     },
     {
-        'img': 'image/acessorios/IMG-20211221-WA0134.jpg',
-        'nome':'Cabo Auxiliar (5M)',
-        'valor':'25,00',
-    },
-    {
         'img': 'image/acessorios/IMG-20211221-WA0123.jpg',
         'nome':'Cabo P/ Antena de Celular',
         'valor':'10,00',
@@ -293,7 +288,7 @@ const DB = [
         'valor':'80,00',
     },
     {
-        'img': 'image/acessorios/IMG-20211221-WA0117.jpg',
+        'img': 'image/acessorios/IMG-20211221-WA0091.jpg',
         'nome':'Fone de Ouvido (Sem Fio)',
         'valor':'50,00',
     },
@@ -301,6 +296,26 @@ const DB = [
         'img': 'image/acessorios/IMG-20211221-WA0127.jpg',
         'nome':'Fone de Ouvido + Cabo Auxiliar',
         'valor':'35,00',
+    },
+    {
+        'img': 'image/acessorios/IMG-20211221-WA0100.jpg',
+        'nome':'Fone de Ouvido (Com Fio – Estéreo)',
+        'valor':'20,00',
+    },
+    {
+        'img': 'image/acessorios/IMG-20211221-WA0118.jpg',
+        'nome':'Fone de Ouvido (Com Fio – Leon Gts)',
+        'valor':'20,00',
+    },
+    {
+        'img': 'image/acessorios/IMG-20211221-WA0115.jpg',
+        'nome':'Fone de Ouvido (Com Fio – Turbo)',
+        'valor':'20,00',
+    },
+    {
+        'img': 'image/acessorios/IMG-20211221-WA0117.jpg',
+        'nome':'Fone de Ouvido (Com Fio – JBL)',
+        'valor':'25,00',
     },
     {
         'img': 'image/acessorios/IMG-20211221-WA0124.jpg',
@@ -323,7 +338,7 @@ const DB = [
         'valor':'20,00',
     },
     {
-        'img': 'image/acessorios/IMG-20211221-WA0097.jpg',
+        'img': 'image/acessorios/IMG-20211221-WA0136.jpg',
         'nome':'Tripé P/ Celular (Médio)',
         'valor':'20,00',
     },
@@ -333,9 +348,9 @@ const DB = [
         'valor':'15,00',
     },
     {
-        'img': 'image/acessorios/IMG-20211221-WA0131.jpg',
+        'img': 'image/acessorios/IMG-20211221-WA0138.jpg',
         'nome':'Pau de Selfie',
-        'valor':'138,00',
+        'valor':'20,00',
     },
     {
         'img': 'image/acessorios/IMG-20211221-WA0133.jpg',
