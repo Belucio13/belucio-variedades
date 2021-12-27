@@ -19,6 +19,16 @@ header{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.produtos-pages{
+    min-height: calc(100vh - 60px);
+}
+
+footer{
+    height: 60px;
 }
 
 .center{

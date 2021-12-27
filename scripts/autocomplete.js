@@ -8,131 +8,157 @@ const DB = [
         'img': 'image/eletronicos/IMG-20211221-WA0083.jpg',
         'nome':'Caixa de som + Microfone (Grande)',
         'valor':'200,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0056.jpg',
         'nome':'Caixa de som + Microfone (Pequeno)',
         'valor':'140,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0058.jpg',
         'nome':'Caixa de som + Microfone (Dupla)',
         'valor':'190,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0038.jpg',
         'nome':'Caixa de som P/ PC G33',
         'valor':'50,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0069.jpg',
         'nome':'Caixa de som P/ PC YST - 1021',
         'valor':'45,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0045.jpg',
         'nome':'Caixa de som (Grande)',
         'valor':'150,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0064.jpg',
         'nome':'Caixa de som (Média)',
         'valor':'140,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0077.jpg',
         'nome':'Caixa de som (Pequena)',
         'valor':'35,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0049.jpg',
         'nome':'Caixa de som (JBL Pequena)',
         'valor':'120,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0046.jpg',
         'nome':'Mini caixa de som',
         'valor':'80,00',
+        'link': 'pages/caixas-de-som.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0040.jpg',
         'nome':'Abajur P/ leitura (Pequeno)',
         'valor':'25,00',
+        'link': 'pages/abajur.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0042.jpg',
         'nome':'Teclado P/ Computador (Grande)',
         'valor':'60,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0052.jpg',
         'nome':'Teclado P/ Computador (Pequeno)',
         'valor':'30,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0052.jpg',
         'nome':'Mouse P/ Computador (Com Fio)',
         'valor':'15,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0055.jpg',
         'nome':'Mouse P/ Computador (Sem Fio)',
         'valor':'25,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0084.jpg',
-        'nome':'Suporte P/ Mouse',
+        'nome':'Suporte P/ Mouse - mousepad',
         'valor':'20,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0053.jpg',
         'nome':'Antena de Wi-fi P/ Computador',
         'valor':'20,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0073.jpg',
         'nome':'HDD P/ Computador de 2,5 P',
         'valor':'40,00',
+        'link': 'pages/componentes-de-computador.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0080.jpg',
         'nome':'Cabo Auxiliar P/ Som (3,5M)',
-        'valor':'80,00',
+        'valor':'15,00',
+        'link': 'pages/cabos.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0065.jpg',
         'nome':'Cabo Auxiliar P/ Som (5M)',
         'valor':'25,00',
+        'link': 'pages/cabos.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0070.jpg',
         'nome':'Cabo Auxiliar P/ Som e DVD',
         'valor':'25,00',
+        'link': 'pages/cabos.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0088.jpg',
         'nome':'Calculadora (Média)',
         'valor':'20,00',
+        'link': 'pages/calculadoras.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0048.jpg',
         'nome':'Cabos Séries Várias Entradas',
         'valor':'30,00',
+        'link': 'pages/cabos.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0051.jpg',
         'nome':'PenDrive 4GB',
-        'valor':'35,00',
+        'valor':'30,00',
+        'link': 'pages/pendrive.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0085.jpg',
         'nome':'PenDrive 8GB',
         'valor':'45,00',
+        'link': 'pages/pendrive.html'
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0087.jpg',
         'nome':'PenDrive 16GB',
         'valor':'60,00',
+        'link': 'pages/pendrive.html'
     },
 
 
@@ -319,13 +345,13 @@ const DB = [
 ]; 
 
 
-const createAutocomplete = (nome, valor,img) => {
+const createAutocomplete = (nome, valor,img, link) => {
     document.querySelector('.autocomplete').style.display = 'flex'
     autocomplete.style.display = 'block'
     const div = document.createElement('div')
     div.classList.add('produto-autocomplete')
     div.innerHTML += `
-        <a href="#">
+        <a href="${link}">
             <div class="mini-img"><img src="${img}"></div>
             <div class="nome-produto">
                 <p class="nome">${nome}</p>
@@ -355,7 +381,7 @@ const callAutocomplete = () => {
         }
         if(itemNome.includes(inputValue)){
             limiteDeItemsNoAutocomplete++
-            createAutocomplete(item.nome, item.valor, item.img)
+            createAutocomplete(item.nome, item.valor, item.img, item.link)
         }
     })
     limiteDeItemsNoAutocomplete = 0

@@ -287,6 +287,7 @@ section.inicio > .center{
 
 .image-generic{
     width: 260px;
+    overflow: hidden;
     border-bottom: 1px solid #ccc;
 }
 
@@ -303,11 +304,15 @@ section.inicio > .center{
 }
 
 .produto-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 280px;
     height: 340px;
     padding: 10px;
-    box-shadow: 5px 6px 19px -6px rgba(0,0,0,0.7);
+    box-shadow: 5px 6px 10px -6px rgb(70 163 13);
     border-radius: 5px;
+    border: 1px solid #24a504;
     color: black !important;
     position: relative;
     top: 0;
@@ -455,7 +460,7 @@ section.inicio > .center{
 }
 
 .right:hover .seta{
-    right: 50%;
+    right: 40%;
     opacity: 1;
 }
 
