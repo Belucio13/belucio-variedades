@@ -14,7 +14,7 @@ const DB = [
         'img': 'image/eletronicos/IMG-20211221-WA0056.jpg',
         'nome':'Caixa de som + Microfone (Pequeno)',
         'valor':'140,00',
-        'link': 'pages/caixas-de-som.html'
+        'link': 'pages/caixas-de-som.html' 
     },
     {
         'img': 'image/eletronicos/IMG-20211221-WA0058.jpg',
@@ -357,6 +357,190 @@ const DB = [
         'nome':'Controle Gamepad',
         'valor':'100,00 e 120,00',
     },
+
+
+
+
+
+
+    
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0226.jpg',
+        'nome':'Lápis Preto',
+        'valor':'0,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0219.jpg',
+        'nome':'Lápis verde',
+        'valor':'0,75',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0200.jpg',
+        'nome':'Lápis P/ Desenho (2B)',
+        'valor':'1,25',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0155.jpg',
+        'nome':'Caneta Bic (Preta)',
+        'valor':'1,20',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0220.jpg',
+        'nome':'Caneta Bic (Azul)',
+        'valor':'1,20',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0154.jpg',
+        'nome':'Caneta Bic (Vermelha)',
+        'valor':'1,20',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0152.jpg',
+        'nome':'Caneta Compactor07',
+        'valor':'1,20',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0169.jpg',
+        'nome':'Caneta Compactor07 (pink)',
+        'valor':'1,20',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0218.jpg',
+        'nome':'Caneta Cis Happy',
+        'valor':'2,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0174.jpg',
+        'nome':'Caneta Cis Duo',
+        'valor':'2,20',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0163.jpg',
+        'nome':'Caneta Cis Candy',
+        'valor':'2,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0209.jpg',
+        'nome':'Caneta Cis Grande',
+        'valor':'2,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0201.jpg',
+        'nome':'Marcador de Texto Jocar Office (M)',
+        'valor':'3,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0149.jpg',
+        'nome':'Pincel Marcador Compactor',
+        'valor':'6,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0153.jpg',
+        'nome':'Marcador P/ Quadro Bic',
+        'valor':'7,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0229.jpg',
+        'nome':'Borracha Mercur Dupla',
+        'valor':'1,30',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0227.jpg',
+        'nome':'Borracha P/ Lápis',
+        'valor':'0,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0175.jpg',
+        'nome':'Corretivo VMP',
+        'valor':'2,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0177.jpg',
+        'nome':'Corretivo Mercur',
+        'valor':'3,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0181.jpg',
+        'nome':'Apontador (Carinha - Cis)',
+        'valor':'4,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA01192.jpg',
+        'nome':'Apontador (Taça)',
+        'valor':'2,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0203.jpg',
+        'nome':'Apontador (Prata)',
+        'valor':'2,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0195.jpg',
+        'nome':'Cola P/ Papel',
+        'valor':'3,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0197.jpg',
+        'nome':'Estilete Largo',
+        'valor':'4,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0143.jpg',
+        'nome':'Tesoura',
+        'valor':'4,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0173.jpg',
+        'nome':'Régua de Plástico (Grande)',
+        'valor':'7,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0214.jpg',
+        'nome':'Capa P/ Identidade',
+        'valor':'2,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0158.jpg',
+        'nome':'Capa P/ CNH',
+        'valor':'2,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0187.jpg',
+        'nome':'Capa P/ Crachá',
+        'valor':'2,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0206.jpg',
+        'nome':'Bloco de Notas (P)',
+        'valor':'4,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0156.jpg',
+        'nome':'Bloco de Notas (M)',
+        'valor':'6,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0146.jpg',
+        'nome':'Fita Durex Pequena',
+        'valor':'2,50',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0187.jpg',
+        'nome':'Fita Durex Grossa (45mmx40m)',
+        'valor':'5,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0145.jpg',
+        'nome':'Fita Durex Grossa (48mmx100m)',
+        'valor':'12,00',
+    },
+    {
+        'img': 'image/papelaria/IMG-20211221-WA0147.jpg',
+        'nome':'Fita Durex Grossa Escura',
+        'valor':'3,00',
+    },
+
+
 ]; 
 
 
