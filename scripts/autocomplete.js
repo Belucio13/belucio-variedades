@@ -525,12 +525,12 @@ const DB = [
         'valor':'2,50',
     },
     {
-        'img': 'image/papelaria/IMG-20211221-WA0187.jpg',
+        'img': 'image/papelaria/IMG-20211221-WA0145.jpg',
         'nome':'Fita Durex Grossa (45mmx40m)',
         'valor':'5,00',
     },
     {
-        'img': 'image/papelaria/IMG-20211221-WA0145.jpg',
+        'img': 'image/papelaria/IMG-20211221-WA0223.jpg',
         'nome':'Fita Durex Grossa (48mmx100m)',
         'valor':'12,00',
     },
