@@ -9,6 +9,7 @@ const hiddenSearch = () => {
     document.querySelector('.search-mobile').style.width = '34px'
     document.querySelector('.ball-lupa').style.border = '2px solid white'
     document.querySelector('.line-lupa').style.backgroundColor = 'white'
+    document.querySelector('#pesquisar-mobile').style.padding = '8px 0'
     document.querySelector('.xis').style.display = 'none'
     document.querySelector('.xis').style.right = '30px'
     document.querySelector('#pesquisar-mobile').disabled = true
@@ -23,6 +24,7 @@ document.querySelector('.lupa')
         document.querySelector('.search-mobile').style.width = '100%'
         document.querySelector('.ball-lupa').style.border = '2px solid black'
         document.querySelector('.line-lupa').style.backgroundColor = 'black'
+        document.querySelector('#pesquisar-mobile').style.padding = '8px 34px'
         document.querySelector('.xis').style.display = 'block'
         document.querySelector('.xis').style.right = '30px'
         document.querySelector('#pesquisar-mobile').disabled = false

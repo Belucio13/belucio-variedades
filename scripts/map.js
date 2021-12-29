@@ -3,13 +3,13 @@ var L;
 window.onload = function() {
 L.mapquest.key = '18gIpGQcFa9B9JVf0TAv664fI4StOKEI';
 var map = L.mapquest.map('map', {
-    center: [-1.3591597,-48.4751602,21],
+    center: [-1.359063, -48.474957],
     layers: L.mapquest.tileLayer('map'),
     zoom: 15
 });
 
 
-L.mapquest.textMarker([-1.3591597,-48.4751602,21], {
+L.mapquest.textMarker([-1.359063, -48.474957], {
 text: 'Belucio Variedades',
 position: 'right',
 type: 'marker',

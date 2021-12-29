@@ -129,3 +129,39 @@ footer{
 .right-slide:hover{
     background-color:rgba(0, 0, 0, 0.774);
 }
+
+@media screen and (max-width: 340px){
+    .produto-expecifico{
+        width: 200px;
+        margin: 5px;
+    }
+    
+    .info,.preco{
+        font-size: 17px;
+    }
+    
+    .slide{
+        width: 200px;
+        height: auto;
+    }
+
+    .btn-carrinho{
+        padding: 7px 10px;
+        margin: 10px 5px;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .left-slide{
+        width: 18px;
+        height: 130px;
+    }
+    .right-slide{
+        width: 18px;
+        height: 130px;
+        left: 180px;
+    }
+    .logo img{
+        width: 44px !important;
+    }
+}
