@@ -404,7 +404,6 @@ section.inicio > .center{
 .left .rede-nome{
     font-size: 3rem;
     color: green;
-    width: 30%;
 }
 
 .left .seta{
@@ -619,8 +618,7 @@ footer{
     }
 
     .left .rede-nome {
-        font-size: 2rem;
-        width: 35%
+        font-size: 1.6rem;
     }
 
     .right .rede-nome {
@@ -675,7 +673,7 @@ footer{
     .informacoes-produto p {
         font-size: 16px;
     }
-    .icon{width: 35% !important}
+    .icon{width: 25% !important}
     .seta{display: none !important}
 }
 

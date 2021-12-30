@@ -3,15 +3,15 @@ var L;
 window.onload = function() {
 L.mapquest.key = '18gIpGQcFa9B9JVf0TAv664fI4StOKEI';
 var map = L.mapquest.map('map', {
-    center: [-1.359063, -48.474957],
+    center: [-1.353063, -48.464957],
     layers: L.mapquest.tileLayer('map'),
-    zoom: 15
+    zoom: 13.4
 });
 
 
 L.mapquest.textMarker([-1.359063, -48.474957], {
 text: 'Belucio Variedades',
-position: 'right',
+position: 'bottom',
 type: 'marker',
 icon: {
     primaryColor: '#095f03',
@@ -27,7 +27,7 @@ icon: {
             <p>Loja de variedades</p> 
             <p>Aberto das 8:00 às 20:00</p>
             <p>R. Vip, 94</p> 
-            <p>whatsapp: xxxxx-xxxx</p>
+            <p>whatsapp: (91) 98488-5867</p>
         `)
 .addTo(map)
 }
