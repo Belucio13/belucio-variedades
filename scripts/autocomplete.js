@@ -577,7 +577,7 @@ const DB = [
         'link':'pages/para-escola.html'
     },
     {
-        'img': 'image/papelaria/IMG-20211221-WA0156.jpg',
+        'img': 'image/papelaria/IMG-20211221-WA0159.jpg',
         'nome':'Bloco de Notas (M)',
         'valor':'6,00',
         'link':'pages/para-escola.html'

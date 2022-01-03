@@ -1,7 +1,6 @@
 const menu = document.querySelectorAll('.item p');
 const container_produtos = document.querySelectorAll('.todos-produtos');
 
- 
 const limparProdutos = () => {
     container_produtos.forEach(produtos => {
         produtos.style.display = 'none';
@@ -11,7 +10,7 @@ const limparProdutos = () => {
 const resetarMenuBorda = () => {
     menu.forEach(menu => {
         menu.style.borderBottom = 'none';        
-        menu.style.borderTop = 'none';        
+        menu.style.borderTop = 'none';         
     })
 }
 

@@ -6,7 +6,7 @@ var map = L.mapquest.map('map', {
     center: [-1.353063, -48.464957],
     layers: L.mapquest.tileLayer('map'),
     zoom: 13.4
-});
+})
 
 
 L.mapquest.textMarker([-1.359063, -48.474957], {

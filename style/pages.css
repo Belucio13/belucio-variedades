@@ -130,6 +130,14 @@ footer{
     background-color:rgba(0, 0, 0, 0.774);
 }
 
+.carrinho-icon i{
+    position: absolute;
+    top: 15px;
+    right: 2%;
+    font-size: 25px;
+    color: white;
+}
+
 @media screen and (max-width: 340px){
     .produto-expecifico{
         width: 200px;
