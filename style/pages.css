@@ -138,6 +138,28 @@ footer{
     color: white;
 }
 
+.pop{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    margin: 20px;
+    font-size: 19px;
+    border-radius: 5px;
+    transition: all 1s;
+    width: 370px;
+}
+
+.add{
+    background-color: green;
+    border: 1px solid rgb(9, 99, 9);
+}
+
+.fail{
+    background-color: red;
+    border: 1px solid rgb(161, 14, 14);
+}
+
 @media screen and (max-width: 340px){
     .produto-expecifico{
         width: 200px;

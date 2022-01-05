@@ -63,8 +63,19 @@ const excluirDoCarrinho = () => {
     callPrecoTotal()
 }
 
+const quantidadeDeItems = () => {
+    const quantidade = produtos.length
+    document.querySelector('.numero').innerHTML = `
+        Carrinho(${quantidade})
+    `
+}
+
 const renderProduto = () => {
     clearTela()
+    if(produtos.length === 0){
+        document.querySelector('.carrinho').innerHTML = '<div class="vazio">Carrinho vazio!</div>'
+    }
+    quantidadeDeItems()
     produtos.forEach(carrinhoIntoDOM)
 }
 

@@ -7,6 +7,18 @@ let produtos = localStorage.getItem('BelucioVariedades') !== null ? localStorege
 
 const updateLocalStorege = () => localStorage.setItem('BelucioVariedades', JSON.stringify(produtos))
 
+const adicionarPop = (text, classe) =>{
+    const div = document.createElement('div')
+    div.classList.add('pop')
+    div.innerHTML = text
+
+    document.querySelector('footer').appendChild(div)
+    div.classList.add(classe)
+
+    setTimeout(() => {
+        document.querySelector('footer').innerHTML = "© copyright | todos direitos reservados"
+    }, 2000)
+}
 
 const addBank = event => {
     const nome = event.path[1].children[1].children[0].innerText
@@ -18,12 +30,14 @@ const addBank = event => {
             valid = false
         }
     }})
+    adicionarPop('Quantidade de produtos limite atingido', 'fail')
     if(valid == true){
         produtos.push({
             nomeProduto: nome,
             preco: preco,
             img: image
         })
+        adicionarPop('Produto adicionado ao carrinho', 'add')
         updateLocalStorege()
     }
     valid = true
