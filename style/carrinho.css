@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     width: 100%;
     max-width: none;
+    margin-bottom: 20px;
 }
 
 .image-carrinho{
@@ -36,7 +37,6 @@ body{
     background-color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 4px #00000038;
-    margin-bottom: 20px;
     width: 800px;
 }
 

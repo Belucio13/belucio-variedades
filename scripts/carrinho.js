@@ -1,4 +1,5 @@
-let produtos = JSON.parse(localStorage.getItem('BelucioVariedades'))
+const localStoregeProduto = JSON.parse(localStorage.getItem('BelucioVariedades'))
+let produtos = localStorage.getItem('BelucioVariedades') !== null ? localStoregeProduto : []
 
 const updateLocalStorege = () => localStorage.setItem('BelucioVariedades', JSON.stringify(produtos))
 
