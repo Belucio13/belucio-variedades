@@ -357,6 +357,7 @@ section.inicio > .center{
 
 #serviços .container{
     display: flex;
+    justify-content: left;
 }
 
 .servico-single{
@@ -367,8 +368,9 @@ section.inicio > .center{
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
-    background: rgb(112,254,138);
-    background: linear-gradient(48deg, rgba(112,254,138,1) 0%, rgba(10,255,0,1) 11%, rgba(13,193,32,1) 32%, rgba(12,175,34,1) 44%, rgba(12,158,36,1) 71%);
+    border: 1px solid rgb(12, 161, 32);
+    background: rgb(32,224,31);
+    background: linear-gradient(6deg, rgba(32,224,31,1) 6%, rgba(29,180,38,1) 32%, rgba(1,121,1,1) 82%);
 }
 
 .servico-single a{
@@ -379,6 +381,25 @@ section.inicio > .center{
     justify-content: space-around;
     flex-direction: column;
     margin: 5px;
+}
+
+.servico-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0 20px 0;
+    padding: 5px 0;
+}
+
+.titulo{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 3px #ccc;
+}
+
+.container-servico:last-child .servico-wrap{
+    border-bottom: none;
 }
 
 /**/
@@ -605,6 +626,14 @@ footer{
     .right .rede-nome{
         padding-right: 20px;
     }
+
+    .container-servico{
+        width: 100%;
+    }
+
+    .servico-wrap {
+        justify-content: center;
+    }
 } 
 
 @media screen and (max-width: 604px){
@@ -666,6 +695,10 @@ footer{
     }
     header .logo-mobile img {
         width: 40px;
+    }
+
+    .titulo{
+        font-size: 20px;
     }
 }
 

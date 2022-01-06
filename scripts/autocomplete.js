@@ -606,7 +606,12 @@ const DB = [
         'valor':'3,00',
         'link':'pages/fitas.html'
     },
-
+    {
+        'img': 'image/papelaria/tekbond.jpg',
+        'nome':'TekBond',
+        'valor':'10,00',
+        'link':'pages/para-escola.html'
+    },
 
 ]; 
 
