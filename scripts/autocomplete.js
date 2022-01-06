@@ -637,7 +637,7 @@ const reseteAutocomplete = () => {
 }
 
 const callAutocomplete = () => {
-    reseteAutocomplete();
+    reseteAutocomplete()
     let limiteDeItemsNoAutocomplete = 0
     let inputValue = document.querySelector('#pesquisar').value.toLowerCase()
     DB.forEach((item) => {
@@ -653,6 +653,26 @@ const callAutocomplete = () => {
     limiteDeItemsNoAutocomplete = 0
 
     if(inputValue.length == 0)
+        reseteAutocomplete();
+}
+
+const autocompleteMobile = (e) => {
+    e.preventDefault()
+    let limiteDeItemsNoAutocomplete = 0
+    let inputMobile = document.querySelector('#pesquisar-mobile').value.toLowerCase()
+    DB.forEach((item) => {
+        let itemNome = item.nome.toLowerCase()
+        if(limiteDeItemsNoAutocomplete >= 5){
+            return
+        }
+        if(itemNome.includes(inputMobile)){
+            limiteDeItemsNoAutocomplete++
+            createAutocomplete(item.nome, item.valor, item.img, item.link)
+        }
+    })
+    limiteDeItemsNoAutocomplete = 0
+
+    if(inputMobile.length == 0)
         reseteAutocomplete();
 }
 
@@ -674,4 +694,5 @@ document.addEventListener('click', (e) => {
         reseteAutocomplete()
     }
 })
-document.querySelector('#pesquisar-mobile').addEventListener('keyup', callAutocomplete)
+
+document.querySelector('#form-mobile').addEventListener('submit', autocompleteMobile)
