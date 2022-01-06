@@ -566,7 +566,15 @@ footer{
     transform: skewX(316deg);
 }
 
+.servico-single a{
+    pointer-events: none;
+}
 
+.recargas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 @media screen and (max-width: 1100px){
     .container-autocomplete{

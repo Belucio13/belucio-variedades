@@ -147,7 +147,7 @@ footer{
     font-size: 19px;
     border-radius: 5px;
     transition: all 1s;
-    max-width: 370px;
+    width: 370px;
 }
 
 .add{

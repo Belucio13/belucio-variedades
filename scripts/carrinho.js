@@ -27,12 +27,13 @@ const carrinhoIntoDOM = ({nomeProduto, preco, img}) => {
 }
 
 const totalPreco = (valor) => {
+    let v = valor + ''
     const div = document.createElement('div')
     div.classList.add('preco-fixed')
     div.innerHTML = `
         <h1>Total da compra</h1>
         <div class="valor">
-            R$ ${valor}
+            R$ ${v.slice(0,5)}
         </div>
         <div class="continuar-compra">
             <button id="continuar">Continuar compra</button>
