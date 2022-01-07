@@ -570,9 +570,50 @@ footer{
     pointer-events: none;
 }
 
-.recargas{
+
+.titulo-recarga{
+    width: 100%;
+    font-size: 24px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.titulo-recarga span{
+    color: rgb(24, 163, 24);
+}
+
+.recarga-single{
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: auto;
+    margin: 15px 10px;
+    align-items: center;
+}
+
+.recarga-single .img{
+    width: 250px; 
+}
+
+.recarga-single .img img{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.description-recarga{
+    font-size: 18px;
+    padding: 7px 4px;
+}
+
+.container-recarga{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
     flex-wrap: wrap;
 }
 
