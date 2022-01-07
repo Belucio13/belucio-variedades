@@ -386,7 +386,7 @@ section.inicio > .center{
 .servico-wrap{
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-between;
     border-bottom: 1px solid #ccc;
     margin: 10px 0 20px 0;
     padding: 5px 0;
@@ -469,13 +469,16 @@ section.inicio > .center{
 
 .right{
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     position: relative;
     right: 0;
     cursor: pointer;
     padding: 50px 0 100px 0;
+}
+
+.right a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .right .icon{
