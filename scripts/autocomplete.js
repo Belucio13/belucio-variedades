@@ -663,6 +663,7 @@ const callAutocomplete = () => {
 
 const autocompleteMobile = (e) => {
     e.preventDefault()
+    reseteAutocomplete()
     let limiteDeItemsNoAutocomplete = 0
     let inputMobile = document.querySelector('#pesquisar-mobile').value.toLowerCase()
     DB.forEach((item) => {
@@ -701,3 +702,6 @@ document.addEventListener('click', (e) => {
 })
 
 document.querySelector('#form-mobile').addEventListener('submit', autocompleteMobile)
+document.querySelector('.xis').addEventListener('click', ()=> {
+    document.querySelector('#pesquisar-mobile').value = ''
+})

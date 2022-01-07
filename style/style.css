@@ -300,7 +300,7 @@ section.inicio > .center{
     max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .produto-single{
