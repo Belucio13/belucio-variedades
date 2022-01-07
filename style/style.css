@@ -759,6 +759,10 @@ footer{
         transform: skewX(340deg);
         right: -10px;
     }
+
+    .titulo-recarga{
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 340px){
@@ -789,6 +793,10 @@ footer{
     }
     .icon{width: 25% !important}
     .seta{display: none !important}
+
+    .recarga-single .img {
+        width: 240px;
+    }
 }
 
 
